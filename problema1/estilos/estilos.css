@@ -1,0 +1,40 @@
+body {
+    padding: 10vh;
+}
+body .uno{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    background-color: #F3F3F3;
+    border-style:solid;
+    border-color: #9999FF;
+    border-width: 10px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 0.3ch;  
+}
+
+
+body .uno p {
+
+    font-weight: 600;
+    outline: 2px solid yellow;
+    width: 100%;
+    margin: 1.5ch;
+    outline-offset: 10px;
+    outline-style: solid;
+}
+
+body .dos {
+    margin-top: 2vh;
+    background-color: #CE8845;
+    padding: 1ch;
+}
+
+body .dos p {
+    color: #E1D7C6;
+    width: 100%;
+    border-bottom: 3px solid #008000;
+}

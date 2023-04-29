@@ -1,0 +1,120 @@
+html, body {
+    background-color: #4a4f59;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+article {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#data{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 5vh;
+
+    background-color:#B2A4FF;
+    border-radius: 1ch;
+}
+
+#data h1 {
+    font-size: xx-large;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#data input {
+    height: 3vh;
+    border-radius: 1vh;
+    border-style: none;
+    padding: 1ch;
+    font-size: 2.6vh;
+    text-transform: uppercase;
+}
+
+#data button{
+    font-size: 2vh;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    height: 5vh;
+    width: 50%;
+    margin-top: 1vh;
+    border-radius: 1vh;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    transition: background-color .3s;
+    background-color: #2ecc71;
+    color: #ecf0f1;
+    border-width: 0;
+    outline: none;
+}
+
+#data button:hover, #data button:focus {
+    background-color: #d35400;
+}
+
+#data label{
+    color: white;
+    margin-bottom: 2vh;
+    margin-top: 4vh;
+}
+
+#fecha_nacimiento{
+    display: block;
+    margin: 0 auto;
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+    margin: 5px auto 0;
+    font: 9pt Arial, sans-serif;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+    text-align: center;
+    line-height: 30px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-radius: 2vh;
+    text-align: center;
+}
+
+#fecha_nacimiento table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+#fecha_nacimiento a{
+    text-decoration: none;
+}
+
+
+section .resultado {
+    color: white;
+}
+
+section .resultado h3{
+    font-weight: 600;
+}
+
+
